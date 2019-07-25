@@ -1,0 +1,76 @@
+body {
+    background: #709078;
+    font-family: Nunito 300;
+}
+
+#description h2 {
+    font-weight: 200;
+    color: #2f4d40;
+    font-size: 2.5rem;
+}
+
+#description p {
+    font-weight: 100;
+    color: #f8d0b0;
+    font-size: 1.125rem;
+    line-height: 2.0;
+}
+
+#titleHeading{
+    font-family: Nunito 400;
+    color: #2f4d40
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+    color:#2f4d40;
+    font-size: 2rem;
+}
+
+#mainNavbar .nav-link {
+    color:#f8d0b0;
+}
+#mainNavbar .nav-link:hover {
+    color: #f67e7d;
+}
+
+#headingGroup span{
+    color:#f67e7d;
+}
+
+#headingGroup h2 {
+    font-weight: 100;
+    font-size: 4rem;
+    color: #2f4d40
+}
+
+#plantIcon {
+    font-size: 4rem;
+    color: #f67e7d
+}
+
+.content {
+    margin-top: 100px;
+}
+
+@media (max-width: 1000px){
+    #headingGroup h2 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+    #plantIcon {
+        font-size: 3rem;
+        
+    }
+}
+
+@media (max-width: 700px){
+    #plantIcon {
+        font-size: 2.5rem;
+    }
+}
